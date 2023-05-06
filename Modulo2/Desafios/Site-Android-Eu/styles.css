@@ -12,7 +12,7 @@
 
 
 body{
-    background-color: white;
+    background-color: rgb(252, 246, 222);
     font-family:Arial, Helvetica, sans-serif;
     margin: 0px;
 }
@@ -22,7 +22,7 @@ header{
     background: linear-gradient(to bottom, #3dc076, #013a1b);
     font-weight: lighter;
     height: auto;
-    /* box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.603); */
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.603);
 }
 
 header > h1{
@@ -89,8 +89,12 @@ span:hover{
 
 
 main{
+    max-width: 1000px;
     background-color: white;
-    margin: 25px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 13px 1px rgba(0, 0, 0, 0.774);
 }
 
 main > p{
@@ -108,7 +112,7 @@ main > p{
 
 main > h2{
     font-family: android;
-    font-size: 36px;
+    font-size: 33px;
     color: #013a1b;
     margin: 0px;
 }
