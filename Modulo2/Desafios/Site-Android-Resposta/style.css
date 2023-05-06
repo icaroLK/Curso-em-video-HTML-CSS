@@ -78,7 +78,9 @@ header > p{
     max-width: 600px;
     padding: 0px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
+    display: inline-block;
     margin: auto;
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -99,7 +101,7 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: var(--cor0);
     padding: 11px;
     text-decoration: none;
     font-weight: bold;
