@@ -102,7 +102,7 @@ nav{
 
 nav a{
     color: var(--cor0);
-    padding: 10.5px 5px;
+    padding: 10.5px 6px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px 10px 0px 0px;
