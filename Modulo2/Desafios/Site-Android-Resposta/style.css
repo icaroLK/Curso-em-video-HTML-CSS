@@ -102,7 +102,7 @@ nav{
 
 nav a{
     color: var(--cor0);
-    padding: 11px;
+    padding: 11px 4px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px 10px 0px 0px;
@@ -217,6 +217,7 @@ div.video > iframe{
 
 
 aside{
+    margin-top: 20px;
     background-color: var(--cor1);
     padding: 15px;
     border-radius: 10px;
